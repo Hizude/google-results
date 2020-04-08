@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+.bold {
+    color: #1a0dad;
+    font-weight: bold;
+}
+
 nav {
     border-bottom: solid #ebeaea 1px;
 }
@@ -166,6 +171,49 @@ main {
     padding: 14px;
     border-top: 1px solid;
     border-color: #ebeaea;
+}
+
+#searches-related {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+table {
+    margin-bottom: 20px;
+}
+
+td {
+    font-size: 15px;
+    padding-right: 40px;
+    padding-bottom: 8px;
+    color: #212bca;
+}
+
+#google-img-next {
+    margin-left: 25%;
+    height: 45px;
+}
+
+#google-img-next-arrow {
+    margin-bottom: 6px;
+}
+
+#page-numbers {
+    list-style: none;
+    padding-left: 30%;
+    padding-bottom: 20px;
+    color: #5985f5;
+}
+
+#page-numbers li {
+    display: inline-block;
+    padding: 0 4px;
+    font-size: 13px;
+}
+
+#next {
+    margin-left: 45px;
+    color: #5985f5;
 }
 
 footer {
